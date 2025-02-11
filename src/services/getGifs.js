@@ -1,4 +1,4 @@
-const apiKey = 'fYu6RTNPof4T5ouR4aPuhxoj4uBZ3i75'
+const apiKey = 'XXX'
 
 function getGifs ({keyword = 'morty'} = {}) {
     const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=10&offset=0&rating=g&lang=en&bundle=messaging_non_clips`
